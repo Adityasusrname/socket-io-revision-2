@@ -1,0 +1,37 @@
+#innerContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: auto;
+    width: 400px;
+}
+
+#messagesInnerContainer{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+#messagesOuterContainer{
+    display: flex;
+    justify-content: center;
+}
+#outerContainer{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+button{
+    margin: 0px;
+}
+button:hover{
+    cursor: pointer;
+}
+h2{
+    display: flex;
+    justify-content: right;
+}
